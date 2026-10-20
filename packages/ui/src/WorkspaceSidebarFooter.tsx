@@ -332,6 +332,11 @@ export const WorkspaceSidebarFooter = memo(function WorkspaceSidebarFooterCompon
                       id: "sidebar.settings.systemDefault",
                     })}
                   </DropdownMenuRadioItem>
+                  <DropdownMenuRadioItem value="tr-TR">
+                    {intl.formatMessage({
+                      id: "sidebar.settings.locale.tr-TR",
+                    })}
+                  </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="en-US">
                     {intl.formatMessage({
                       id: "sidebar.settings.locale.en-US",
@@ -355,6 +360,11 @@ export const WorkspaceSidebarFooter = memo(function WorkspaceSidebarFooterCompon
                   <DropdownMenuRadioItem value="system">
                     {intl.formatMessage({
                       id: "sidebar.settings.systemDefault",
+                    })}
+                  </DropdownMenuRadioItem>
+                  <DropdownMenuRadioItem value="tr-TR">
+                    {intl.formatMessage({
+                      id: "sidebar.settings.locale.tr-TR",
                     })}
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="zai-dark">

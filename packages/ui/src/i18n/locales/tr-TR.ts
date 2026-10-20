@@ -2,6 +2,8 @@ import { requestSecurityMessagesEnUS } from "@/request-security-edition/messages
 
 /** Turkish translations */
 const trTR: Record<string, string> = {
+  "settings.locale.tr-TR": "Türkçe",
+  "sidebar.settings.locale.tr-TR": "Türkçe",
   "titleBar.menu.file": "Dosya",
   "titleBar.menu.edit": "Düzen",
   "titleBar.menu.view": "Görünüm",
